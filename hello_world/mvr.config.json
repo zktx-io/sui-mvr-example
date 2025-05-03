@@ -1,4 +1,6 @@
 {
     "network": "devnet",
-    "owner": "0x581f7a81a582b72d1212c7ba7806fa3cc99c1466c8ef403456d0ad0ec4311ebf"
+    "owner": "0x581f7a81a582b72d1212c7ba7806fa3cc99c1466c8ef403456d0ad0ec4311ebf",
+    "package_id": "0xc5bde2b309fa1569732f654fd19b0092135e0d7590b0d20367b254bd9a53f8bc",
+    "upgrade_id": "0x28a84b61df27af2f55892fe50ac63747afaf8b1008c4df9207afffda7982363c"  
 }
