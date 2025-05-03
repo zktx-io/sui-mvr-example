@@ -11,6 +11,6 @@ permissions:
 
 jobs:
   build:
-    uses: zkzktx-io/sui-mvr-provenance@v0.0.3
+    uses: zktx-io/sui-mvr-provenance@v0.0.3
     with:
       working-directory: ./hello_world
