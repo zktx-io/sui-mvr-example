@@ -1,5 +1,4 @@
 {
     "network": "testnet",
-    "owner": "0x581f7a81a582b72d1212c7ba7806fa3cc99c1466c8ef403456d0ad0ec4311ebf",
-    "upgrade_cap": "0xc9c87d29c88af24fa49ef62811e0a7ad2204a7ffa8c334269745dabe4f5a029c"
+    "owner": "0x581f7a81a582b72d1212c7ba7806fa3cc99c1466c8ef403456d0ad0ec4311ebf"
 }
