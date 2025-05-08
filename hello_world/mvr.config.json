@@ -1,9 +1,6 @@
 {
     "network": "mainnet",
     "owner": "0x581f7a81a582b72d1212c7ba7806fa3cc99c1466c8ef403456d0ad0ec4311ebf",
-    "app_name": "@hello-mvr/test-02",
-    "app_desc": "SLSA + MVR = Perfect Transparency",
-    "upgrade_cap": "0x93c7a60dc7cb80f92f188eb318073044199add2fa9b9cabaeccd36f72d51e88e",
-    "app_cap": "0x6c8b872530ca5bfdd7d81da91418c77f45f0d7c4f9f50766b7b74601fa785707",
-    "pkg_info": "0x2477cfa28e033708d557784cc1aef94e0f141628f5cc0017c800f1d0a2e6a2d1"  
+    "app_name": "@hello-mvr/test-03",
+    "app_desc": "SLSA + MVR = Perfect Transparency"
 }
