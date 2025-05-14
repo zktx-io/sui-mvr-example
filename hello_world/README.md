@@ -19,7 +19,7 @@ This repository contains an example Move package designed to demonstrate how to 
 📁 **GitHub**:  
 This repository includes:
 
-- 🧩 **Move package**: [`sources/`](https://github.com/zktx-io/sui-mvr-example/tree/main/hello_world)
+- 🧩 **Move package**: [`hello_world/`](https://github.com/zktx-io/sui-mvr-example/tree/main/hello_world)
 - ⚙️ **GitHub Actions workflow**: [`.github/workflows/deploy.yml`](https://github.com/zktx-io/sui-mvr-example/blob/main/.github/workflows/deploy.yml)
 - 📝 **Provenance configuration**: [`mvr.config.json`](https://github.com/zktx-io/sui-mvr-example/blob/main/hello_world/mvr.config.json)
 
