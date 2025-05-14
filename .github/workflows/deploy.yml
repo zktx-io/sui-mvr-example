@@ -1,0 +1,19 @@
+name: Deploy My Static Site to Walrus with Provenance
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  id-token: write
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    uses: zktx-io/sui-mvr-provenance/.github/workflows/deploy_with_slsa3.yml@v0.2.0
+    with:
+      working-directory: hello_world
+    secrets:
+      GIT_SIGNER_PIN: ${{ secrets.GIT_SIGNER_PIN }}
+      ED25519_PRIVATE_KEY: ${{ secrets.ED25519_PRIVATE_KEY }}
