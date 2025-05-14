@@ -20,8 +20,8 @@ This repository contains an example Move package designed to demonstrate how to 
 This repository includes:
 
 - 🧩 **Move package**: [`sources/`](https://github.com/zktx-io/sui-mvr-example/tree/main/sources)  
-- ⚙️ **GitHub Actions workflow**: [`.github/workflows/deploy.yml`](https://github.com/zktx-io/sui-mvr-example/tree/main/.github/workflows/deploy.yml)  
-- 📝 **Provenance configuration**: [`mvr.config.json`](https://github.com/zktx-io/sui-mvr-example/tree/main/mvr.config.json)
+- ⚙️ **GitHub Actions workflow**: [`.github/workflows/deploy.yml`](https://github.com/zktx-io/sui-mvr-example/blob/main/.github/workflows/deploy.yml)  
+- 📝 **Provenance configuration**: [`mvr.config.json`](https://github.com/zktx-io/sui-mvr-example/blob/main/hello_world/mvr.config.json)
 
 It includes:
 
