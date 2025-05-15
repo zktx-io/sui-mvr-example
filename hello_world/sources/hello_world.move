@@ -23,3 +23,12 @@ public fun mint(ctx: &mut TxContext) {
     };
     transfer::public_transfer(object, tx_context::sender(ctx));
 }
+
+#[lint_allow(self_transfer)]
+public fun mint2(ctx: &mut TxContext) {
+    let object = HelloWorldObject {
+        id: object::new(ctx),
+        text: string::utf8(b"Hello MVR!"),
+    };
+    transfer::public_transfer(object, tx_context::sender(ctx));
+}
