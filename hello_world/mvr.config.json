@@ -2,5 +2,8 @@
     "network": "mainnet",
     "owner": "0x54db5a65ded3365f3b4906c6822d95d78eee10ecbdd150bc58380e047a930189",
     "app_name": "@notary/hello-mvr",
-    "app_desc": "Example Move package for Sui MVR with provenance support."
+    "app_desc": "Example Move package for Sui MVR with provenance support.",
+    "upgrade_cap": "0x6407db1ca825d104be0e3e9e83b038a05c86e69051121a1524e0f433ec3e2eae",
+    "app_cap": "0x48b7b9509fb4d769dccee9d0da2e2704cb433289f85619c297ed0a676c6cdcd7",
+    "pkg_info": "0x091b397ee8c9ecfdd4a896c5f21f56e76d94d76ebd965387a3b6fa655ed79b18"
 }
