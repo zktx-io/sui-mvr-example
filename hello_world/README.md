@@ -16,6 +16,9 @@ With provenance support powered by **CI/CD**, this project transforms the **Move
 
 This repository contains an example Move package designed to demonstrate how to register a package on the [**Move Registry (MVR)**](https://www.moveregistry.com/) with in-toto provenance data.
 
+🔗 **Live on MVR**:  
+[@notary/hello-mvr on notary.wal.app](https://notary.wal.app/mvr/@notary/hello-mvr)
+
 📁 **GitHub**:  
 This repository includes:
 

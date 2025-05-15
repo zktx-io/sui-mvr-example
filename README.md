@@ -18,6 +18,7 @@ This repository contains an example Move package designed to demonstrate how to 
 
 🔗 **Live on MVR**:  
 [@notary/hello-mvr on moveregistry.com](https://www.moveregistry.com/package/@notary/hello-mvr)
+[@notary/hello-mvr on notary.wal.app](https://notary.wal.app/mvr/@notary/hello-mvr)
 
 It includes:
 
