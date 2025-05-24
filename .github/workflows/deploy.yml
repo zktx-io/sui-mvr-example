@@ -1,4 +1,4 @@
-name: Deploy My Static Site to Walrus with Provenance
+name: Deploy My Move Package with Provenance
 
 on:
   release:
