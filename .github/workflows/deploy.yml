@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    uses: zktx-io/sui-mvr-provenance/.github/workflows/deploy_with_slsa3.yml@v0.2.7
+    uses: zktx-io/sui-mvr-provenance/.github/workflows/deploy_with_slsa3.yml@v0.3.0
     with:
       working-directory: hello_world
     secrets:
