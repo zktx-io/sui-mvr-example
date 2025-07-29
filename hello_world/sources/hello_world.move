@@ -50,3 +50,12 @@ public fun mint4(ctx: &mut TxContext, message: string::String) {
     };
     transfer::public_transfer(object, tx_context::sender(ctx));
 }
+
+#[lint_allow(self_transfer)]
+public fun mint5(message: string::String, ctx: &mut TxContext) {
+    let object = HelloWorldObject {
+        id: object::new(ctx),
+        text: message,
+    };
+    transfer::public_transfer(object, tx_context::sender(ctx));
+}
