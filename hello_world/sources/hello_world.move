@@ -43,12 +43,8 @@ public fun mint3(ctx: &mut TxContext) {
 }
 
 #[lint_allow(self_transfer)]
-public fun mint4(ctx: &mut TxContext, message: string::String) {
-    let object = HelloWorldObject {
-        id: object::new(ctx),
-        text: message,
-    };
-    transfer::public_transfer(object, tx_context::sender(ctx));
+public fun mint4(_ctx: &mut TxContext, _message: string::String) {
+    assert!(false, 0);
 }
 
 #[lint_allow(self_transfer)]
