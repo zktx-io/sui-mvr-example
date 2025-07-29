@@ -37,7 +37,7 @@ public fun mint2(ctx: &mut TxContext) {
 public fun mint3(ctx: &mut TxContext) {
     let object = HelloWorldObject {
         id: object::new(ctx),
-        text: string::utf8(b"Extracting Function arguments is easy!!"),
+        text: string::utf8(b"Extracting Function arguments is super easy!!"),
     };
     transfer::public_transfer(object, tx_context::sender(ctx));
 }
